@@ -1,7 +1,22 @@
 import { blogData } from '@/data/bogData';
 import Link from 'next/link';
+import { Suspense } from 'react';
 
-export default async function ArticleDetailsPage({ params }) {
+export default function ArticleDetailsPage({ params }) {
+  return (
+    <Suspense
+      fallback={
+        <main className="max-w-4xl mx-auto px-4 py-10">
+          Loading article...
+        </main>
+      }
+    >
+      <ArticleDetails params={params} />
+    </Suspense>
+  );
+}
+
+async function ArticleDetails({ params }) {
   const { id } = await params;
 
   // ID diye blog data khoja
