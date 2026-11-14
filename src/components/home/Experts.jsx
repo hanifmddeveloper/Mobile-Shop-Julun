@@ -35,7 +35,7 @@ export default function Experts() {
           </p>
 
           <a
-            href="/bookRepare"
+            href="/book-repair"
             className="inline-flex items-center justify-center rounded-full bg-[#FFD700] px-7 py-3 text-sm font-bold text-black transition-all duration-300 hover:bg-white hover:scale-105"
           >
             Book a Repair
