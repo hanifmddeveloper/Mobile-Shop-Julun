@@ -8,7 +8,7 @@
         {/* Devices Banner */}
         <div className="relative h-[260px] w-full overflow-hidden rounded-xl bg-gray-200 sm:h-[350px] md:h-[420px] lg:h-[520px]">
             <img
-            src="/images/RepairHeroimage.png"
+            src="/images/serB1.webp"
             alt="Devices Banner"
             className="h-full w-full object-contain  bg-white"
             />

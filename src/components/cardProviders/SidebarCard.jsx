@@ -27,10 +27,10 @@ export default function SidebarCard() {
 
         {/* Heading */}
         <h2 className="mx-auto mb-5 w-full max-w-[190px] text-2xl font-extrabold leading-tight text-white sm:max-w-[260px] sm:text-3xl md:max-w-[320px] md:text-4xl lg:w-[190px] lg:max-w-none">
-          <span className="lg:block">Stop</span>
-          <span className="lg:block">worry and</span>
-          <span className="lg:block">send your</span>
-          <span className="lg:block">gadget to</span>
+          <span className="lg:block">Stop </span>
+          <span className="lg:block">worry and </span>
+          <span className="lg:block">send your </span>
+          <span className="lg:block">gadget to </span>
           <span className="lg:block">us</span>
         </h2>
 
@@ -41,7 +41,7 @@ export default function SidebarCard() {
 
         {/* Call to Action Button */}
         <div>
-          <Button children="Book a Repair" />
+          <Button>Book a Repair</Button>
         </div>
 
       </div>

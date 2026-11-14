@@ -11,10 +11,10 @@ export default function BlogCard({
   return (
     <Link 
       href={`/blog/${id}`}
-      className={`group flex flex-col sm:flex-row items-center gap-6 p-6 bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 w-full block ${className}`}
+      className={`group flex w-full flex-col items-stretch gap-4 rounded-2xl border border-gray-200 bg-white p-4 shadow-sm transition-all duration-200 hover:shadow-md sm:flex-row sm:items-center sm:gap-6 sm:p-6 ${className}`}
     >
       {/* Image Container */}
-      <div className="w-full sm:w-48 h-36 shrink-0 overflow-hidden rounded-xl bg-gray-100">
+      <div className="h-40 w-full shrink-0 overflow-hidden rounded-xl bg-gray-100 sm:h-36 sm:w-48">
         <img
           src={image}
           alt={title}
@@ -23,9 +23,9 @@ export default function BlogCard({
       </div>
 
       {/* Content */}
-      <div className="flex flex-col justify-between flex-1 space-y-3">
+      <div className="flex min-w-0 flex-1 flex-col justify-between space-y-3">
         <div className="space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">
+          <h3 className="line-clamp-2 text-xl font-bold text-gray-900 transition-colors group-hover:text-blue-600 sm:text-2xl">
             {title}
           </h3>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed line-clamp-2">

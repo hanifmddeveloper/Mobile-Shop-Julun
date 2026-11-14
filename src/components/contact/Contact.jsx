@@ -11,14 +11,14 @@ const shopAddress = "Mirpur 10, Dhaka, Bangladesh";
 
 export default function Contact() {
   return (
-    <section className="w-full bg-[#1C2326] py-24 text-white">
+    <section className="w-full bg-[#1C2326] py-12 text-white sm:py-16 lg:py-24">
 
       <Container>
 
         <div className="grid grid-cols-1 overflow-hidden rounded-2xl lg:grid-cols-2">
 
           {/* Left Side Image */}
-          <div className="relative min-h-[450px] lg:min-h-[550px]">
+          <div className="relative min-h-[280px] sm:min-h-[380px] lg:min-h-[550px]">
 
             <Image
               src={contactImage}
@@ -44,7 +44,7 @@ export default function Contact() {
           </div>
 
           {/* Right Side Form */}
-          <div className="bg-[#203033] px-6 py-12 sm:px-10 lg:px-14">
+          <div className="bg-[#203033] px-5 py-8 sm:px-10 sm:py-12 lg:px-14">
 
             <p className="mb-4 text-sm font-bold tracking-[3px] text-[#FFDF00]">
               CONTACT US
@@ -134,7 +134,7 @@ export default function Contact() {
         </div>
 
         {/* Google Map */}
-        <div className="mt-8 h-[350px] overflow-hidden rounded-2xl border border-white/10 md:h-[420px]">
+        <div className="mt-8 h-[260px] overflow-hidden rounded-2xl border border-white/10 sm:h-[350px] md:h-[420px]">
 
           <iframe
             title="Shop Location"

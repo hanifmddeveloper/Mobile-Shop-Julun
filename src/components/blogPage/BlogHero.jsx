@@ -7,11 +7,11 @@ import SectionTitle from "../common/SectionTitle";
 
 export default function BlogHero() {
   return (
-    <section className="relative w-full min-h-[500px] md:min-h-[330px] bg-gray-600 text-white flex flex-col justify-between overflow-hidden">
+    <section className="relative flex min-h-[400px] w-full flex-col justify-between overflow-hidden bg-gray-600 text-white sm:min-h-[440px] md:min-h-[330px]">
 
       {/* Blurred Background Overlay */}
     <div
-    className="absolute inset-0 bg-cover bg-center bg-no-wrap filter  opacity-60 scale-105"
+    className="absolute inset-0 scale-105 bg-cover bg-center bg-no-repeat opacity-60"
     style={{
       backgroundImage: `url('/images/BlogImg.jpeg')`,
     }}

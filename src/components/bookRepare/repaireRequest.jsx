@@ -19,7 +19,7 @@ const gadgets = [
   "Other",
 ];
 
-export default function ccc() {
+export default function RepaireRequest() {
   const [gadget, setGadget] = useState("");
   const [model, setModel] = useState("");
   const [problem, setProblem] = useState("");
@@ -57,7 +57,7 @@ export default function ccc() {
   return (
     <section className="w-full bg-white py-16">
       <Container>
-      <div className="mx-auto w-full max-w-[1400px] px-6 lg:px-[60px]">
+      <div className="mx-auto w-full max-w-[1400px] px-0 sm:px-4 lg:px-[60px]">
 
         <div className="grid grid-cols-1 items-start gap-8 lg:grid-cols-12 lg:gap-12">
 
@@ -214,7 +214,7 @@ export default function ccc() {
                   />
 
                   <span className="whitespace-nowrap text-[14px] text-[#222]">
-                    I'm not a robot
+                    I&apos;m not a robot
                   </span>
 
                 </label>
@@ -254,7 +254,7 @@ export default function ccc() {
 
             {/* LOCATION CARD */}
 
-            <div className="min-h-[260px] rounded-3xl bg-[#ffdc00] px-10 py-10">
+            <div className="min-h-[260px] rounded-3xl bg-[#ffdc00] px-6 py-8 sm:px-10 sm:py-10">
 
               <MapPin
                 size={37}
@@ -284,7 +284,7 @@ export default function ccc() {
 
             {/* WORKING HOURS CARD */}
 
-            <div className="min-h-[196px] rounded-[16px] bg-[#ffdc00] px-10 py-10">
+            <div className="min-h-[196px] rounded-[16px] bg-[#ffdc00] px-6 py-8 sm:px-10 sm:py-10">
 
               <Clock3
                 size={37}
@@ -293,7 +293,7 @@ export default function ccc() {
               />
 
               <h3 className="mt-3 text-[20px] font-semibold text-black">
-                We're Open To days
+                We&apos;re Open To days
               </h3>
 
               <p className="mt-3 text-[16px] leading-6 text-black">

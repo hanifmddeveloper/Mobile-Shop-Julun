@@ -7,7 +7,7 @@ export default function HeroSection() {
 
       {/* Blurred Background Overlay */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-wrap filter blur-md opacity-40 scale-105"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat filter blur-md opacity-40 scale-105"
         style={{
           backgroundImage: `url('https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1600&auto=format&fit=crop')`,
         }}

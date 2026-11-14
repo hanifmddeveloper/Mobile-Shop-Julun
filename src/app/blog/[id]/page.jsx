@@ -40,7 +40,7 @@ async function ArticleDetails({ params }) {
       </div>
 
       {/* Featured Banner Image */}
-      <div className="w-full h-[320px] sm:h-[420px] overflow-hidden rounded-2xl bg-gray-100 shadow-sm">
+      <div className="h-[220px] w-full overflow-hidden rounded-2xl bg-gray-100 shadow-sm sm:h-[320px] md:h-[420px]">
         <img
           src={article.image}
           alt={article.title}

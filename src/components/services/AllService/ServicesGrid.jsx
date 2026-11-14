@@ -9,56 +9,56 @@ const servicesData = [
     title: "Screen Repair",
     description:
       "Replacing the display screen of an electronic device, such as a smartphone, tablet, laptop, or television.",
-    imageSrc: "/images/D21.webp",
+    imageSrc: "/images/BR1.png",
   },
   {
     id: "02",
     title: "Battery Replacement",
     description:
       "Over time, batteries can degrade, leading to decreased performance, reduced battery life, or complete failure.",
-    imageSrc: "/images/D39.webp",
+    imageSrc: "/images/D21.webp",
   },
   {
     id: "03",
     title: "Water Damage Repair",
     description:
       "Repairing water-damaged devices by fixing corrosion, short circuits, and other internal component issues.",
-    imageSrc: "/images/D27.webp",
+    imageSrc: "/images/D25.webp",
   },
   {
     id: "04",
     title: "Data Recovery",
     description:
       "Retrieving or restoring inaccessible, lost, corrupted, or accidentally deleted data from storage.",
-    imageSrc: "/images/D29.webp",
+    imageSrc: "/images/D26.webp",
   },
   {
     id: "05",
     title: "Charging Port Repair",
     description:
       "Fixing damaged or loose charging ports to restore proper charging and connectivity.",
-    imageSrc: "/images/D44.webp",
+    imageSrc: "/images/D31.webp",
   },
   {
     id: "06",
     title: "Camera Repair",
     description:
       "Repairing faulty front and rear cameras to restore clear photos, videos, and camera functionality.",
-    imageSrc: "/images/D47.webp",
+    imageSrc: "/images/D41.webp",
   },
   {
     id: "07",
     title: "Speaker Repair",
     description:
       "Fixing speaker and microphone issues to restore clear audio during calls, music, and video playback.",
-    imageSrc: "/images/D48.webp",
+    imageSrc: "/images/D41.webp",
   },
   {
     id: "08",
     title: "Software Troubleshooting",
     description:
       "Resolving software errors, system crashes, slow performance, and other operating system issues.",
-    imageSrc: "/images/D49.webp",
+    imageSrc: "/images/D42.webp",
   },
 ];
 

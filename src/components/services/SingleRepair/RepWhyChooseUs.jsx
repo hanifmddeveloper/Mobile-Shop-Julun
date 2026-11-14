@@ -45,7 +45,7 @@ export default function RepWhyChooseUs() {
               <Check size={30} className="text-slate-900 stroke-[3]" />
             </div>
             <h4 className="font-bold text-[20px] text-slate-900">{item.title}</h4>
-            <p className="text-sm text-gray-500 leading-6 w-[220px]">{item.desc}</p>
+            <p className="w-full max-w-[220px] text-sm leading-6 text-gray-500">{item.desc}</p>
           </div>
         ))}
       </div>

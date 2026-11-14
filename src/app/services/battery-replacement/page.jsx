@@ -1,12 +1,12 @@
 import React from "react";
 
 import Container from "@/components/common/Container";
-import Sidebar from "@/components/services/phoneRepair/Sidebar";
-import SingleRepairHero from "@/components/services/phoneRepair/SingleRepairHero";
-import PhoneRepairHeroSection from "@/components/services/phoneRepair/PhoneRepairHeroSection";
-import RepaireGrid from "@/components/services/phoneRepair/RepaireGrid";
-import RepWhyChooseUs from "@/components/services/phoneRepair/RepWhyChooseUs";
-import RepairCTA from "@/components/services/allService/RepairCTA";
+import Sidebar from "@/components/services/SingleRepair/Sidebar";
+import SingleRepairHero from "@/components/services/SingleRepair/SingleRepairHero";
+import PhoneRepairHeroSection from "@/components/services/SingleRepair/PhoneRepairHeroSection";
+import RepaireGrid from "@/components/services/SingleRepair/RepaireGrid";
+import RepWhyChooseUs from "@/components/services/SingleRepair/RepWhyChooseUs";
+import RepairCTA from "@/components/services/AllService/RepairCTA";
 
 export default function Page() {
   return (
@@ -18,12 +18,12 @@ export default function Page() {
       <Container className="mt-8">
         <div className="flex flex-col items-start gap-8 lg:flex-row">
           {/* Sidebar - 30% */}
-          <div className="w-full min-w-0 lg:w-[25%] lg:shrink-0">
+          <div className="order-2 w-full min-w-0 lg:order-1 lg:w-[25%] lg:shrink-0">
             <Sidebar />
           </div>
 
           {/* Phone Repair Content - 70% */}
-          <div className="w-full min-w-0 flex-1">
+          <div className="order-1 w-full min-w-0 flex-1 lg:order-2">
             <PhoneRepairHeroSection/>
             <RepaireGrid/>
             <RepWhyChooseUs/>
